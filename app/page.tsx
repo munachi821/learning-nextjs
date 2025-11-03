@@ -1,13 +1,4 @@
-import Hello from "@/components/Hello";
-
-const Home = () => {
-  console.log("What type of a component am i?");
-
-  return (
-    <main>
-      <div className="text-4xl">Welcome to Next.js</div>
-      <Hello />
-    </main>
-  );
+const page = () => {
+  return <div>Welcome to Next js</div>;
 };
-export default Home;
+export default page;
