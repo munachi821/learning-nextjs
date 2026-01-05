@@ -1,7 +1,6 @@
 import EventCard from "@/components/EventCard";
 import ExploreBtn from "@/components/ExploreBtn";
 import { events } from "@/lib/constants";
-
 const page = () => {
   return (
     <section className="sm:px-10 px-5">
